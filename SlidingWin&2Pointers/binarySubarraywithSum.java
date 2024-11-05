@@ -1,4 +1,4 @@
-public class binarysumEqualsumK {
+public class binarySubarraywithSum {
     public static int countSubArray(int []nums, int k){
         int n = nums.length;
         int count=0;
