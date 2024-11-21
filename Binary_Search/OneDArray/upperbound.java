@@ -12,7 +12,7 @@ public class upperbound {
                 right = mid - 1;
             }
             else{           // 5 <=9
-                low = mid + 1;
+                low = mid + 1;  
             }
 
         }  
