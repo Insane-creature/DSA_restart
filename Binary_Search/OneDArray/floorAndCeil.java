@@ -3,7 +3,7 @@ package Binary_Search.OneDArray;
 public class floorAndCeil {
     public static void main(String[] args) {
         int []nums = {3, 4, 4, 7, 8, 10};
-        int k = 8;
+        int k = 9;
         int left = 0, right = nums.length-1;
         int floor = -1, ceil = -1;
 
