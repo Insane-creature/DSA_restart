@@ -1,4 +1,6 @@
-class Solution {
+
+
+class MovingZero {
     public void moveZeroes(int[] nums) {
         int left = 0;
 
