@@ -1,4 +1,4 @@
-package Strings;
+package Strings.Basic;
 
 public class convertCase {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 
-package Strings;
+package Strings.Basic;
 
 public class removingWhiteSpaces {
     public static void main(String[] args) {
