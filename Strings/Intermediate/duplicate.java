@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class duplicate {
     public static void main(String[] args) {
-        String str = "programmming";
+        String str = "programming";
         Map<Character, Integer> charCount = new HashMap<>();
         
         for (char ch : str.toCharArray()) {

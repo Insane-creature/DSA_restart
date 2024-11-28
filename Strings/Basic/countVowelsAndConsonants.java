@@ -3,7 +3,6 @@ package Strings.Basic;
 public class countVowelsAndConsonants {
     public static void main(String[] args) {
         String str = "hello";
-        String vowels = "";
         int count_vowels = 0, count_consonents = 0;
 
         for (int i = 0; i < str.length(); i++) {

@@ -14,13 +14,14 @@ public class firstNonRepeatingChar {
         }
 
         for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
-            if (entry.getValue() == 1) {
-                System.out.println("First non-repeating character: " + entry.getKey());
-                return;
-            }
+            System.out.println(entry);
+            // if (entry.getValue() == 1) {
+            //     System.out.println("First non-repeating character: " + entry.getKey());
+            //     return;
+            // }
         }
 
-        System.out.println("No non-repeating character found.");
+        // System.out.println("No non-repeating character found.");
 
     }
 }
