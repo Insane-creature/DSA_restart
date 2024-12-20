@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class Solution {
     static ArrayList<Long> factorialNumbers(long n) {
         // code here
