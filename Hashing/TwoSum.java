@@ -1,4 +1,4 @@
-package Array;
+package Hashing;
 import java.util.HashMap;
 
 public class TwoSum {
@@ -6,7 +6,6 @@ public class TwoSum {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-            System.out.println(complement);
             if (map.containsKey(complement)) {
                 return new int[]{map.get(complement), i};
             }
